@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="基类">
+      <UniqueIdentifier>{2236b6ec-b990-42ca-bbea-5a0c417a90bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="模型">
+      <UniqueIdentifier>{6169fad1-b3ff-4129-9548-7997f86a033e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="采样">
+      <UniqueIdentifier>{203ce1f0-7624-46b6-951d-20201bf63d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="辐射度">
+      <UniqueIdentifier>{a75c82a5-90be-4fa2-9e37-3206d03dbd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="光照、材质">
+      <UniqueIdentifier>{40a8b066-1086-4d5c-87f7-2c24ac351d4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="茶壶">
+      <UniqueIdentifier>{586d16b3-7b13-4c82-a07d-88fd0aa5862a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="光线跟踪">
+      <UniqueIdentifier>{7e1d76a7-8cfe-41a3-b276-1f0cf45c1cc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Temp1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp1Doc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Temp1View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3D.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBColor.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometricObject.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPlane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampler.h">
+      <Filter>采样</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF.h">
+      <Filter>辐射度</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>光照、材质</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>光照、材质</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Torus.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Compound.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="TeaPot.h">
+      <Filter>茶壶</Filter>
+    </ClInclude>
+    <ClInclude Include="Bezier.h">
+      <Filter>茶壶</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>光线跟踪</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>光线跟踪</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadeRec.h">
+      <Filter>光线跟踪</Filter>
+    </ClInclude>
+    <ClInclude Include="CPatch.h">
+      <Filter>茶壶</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform3.h">
+      <Filter>基类</Filter>
+    </ClInclude>
+    <ClInclude Include="T2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BicubicBezierPatch.h">
+      <Filter>茶壶</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothTriangle.h">
+      <Filter>模型</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothBezier.h">
+      <Filter>茶壶</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothBicubicBezierPatch.h">
+      <Filter>茶壶</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>光照、材质</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Temp1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp1Doc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Temp1View.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Point3D.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBColor.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometricObject.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPlane.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Sampler.cpp">
+      <Filter>采样</Filter>
+    </ClCompile>
+    <ClCompile Include="BRDF.cpp">
+      <Filter>辐射度</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>光照、材质</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>光照、材质</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Torus.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Compound.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="TeaPot.cpp">
+      <Filter>茶壶</Filter>
+    </ClCompile>
+    <ClCompile Include="Bezier.cpp">
+      <Filter>茶壶</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>光线跟踪</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadeRec.cpp">
+      <Filter>光线跟踪</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>光线跟踪</Filter>
+    </ClCompile>
+    <ClCompile Include="CPatch.cpp">
+      <Filter>茶壶</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform3.cpp">
+      <Filter>基类</Filter>
+    </ClCompile>
+    <ClCompile Include="T2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BicubicBezierPatch.cpp">
+      <Filter>茶壶</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothTriangle.cpp">
+      <Filter>模型</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothBezier.cpp">
+      <Filter>茶壶</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothBicubicBezierPatch.cpp">
+      <Filter>茶壶</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>光照、材质</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Temp1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Temp1.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Temp1Doc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Temp1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Test.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="D:\User\Picture\Bit图片\38080.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="D:\User\Picture\Bit图片\projection.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
